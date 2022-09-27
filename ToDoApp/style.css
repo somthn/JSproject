@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body
+{
+    margin: 0;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container
+{
+    background: #fff;
+    min-height: 100vh; /*내가 보는 화면의 높이만큼*/
+    max-width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.input-area
+{
+    position: relative;
+}
+
+#task-input
+{      
+    width: 80%;
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid rgb(158, 189, 247);
+}
+
+#task-input + label > span
+{   
+    color: #8f8f8f;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+.button-add
+{   
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    background-color:rgb(158, 189, 247);
+    border: none;
+    padding: 0 5px 0 5px;
+}
+
+.task-area
+{
+    background-color: #fff;
+    border: 1px solid lightblue;
+    margin-top: 2em;
+}
+
+.tap-menu
+{
+    display: flex;
+    border-bottom: 1px solid lightblue;
+    position: relative;
+}
+
+.tap-menu div
+{
+    padding: 1em;
+}
+
+#underline
+{
+    height: 4px;
+    background-color: lightblue;
+    position: absolute;
+    width: 70px;
+    left: 0;
+    top: 52px;
+    padding: 0px;
+}
+
+.task
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.task .task-button button
+{
+    color: #fff;
+    background-color:rgb(158, 189, 247);
+    border: none;
+    padding: 0.5em;
+}
