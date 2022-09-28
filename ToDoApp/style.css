@@ -64,6 +64,7 @@ body
     display: flex;
     border-bottom: 1px solid lightblue;
     position: relative;
+    cursor: pointer;
 }
 
 .tap-menu div
@@ -89,10 +90,15 @@ body
     padding: 1em;
 }
 
-.task .task-button button
+button
 {
     color: #fff;
     background-color:rgb(158, 189, 247);
     border: none;
     padding: 0.5em;
+}
+
+.task-done
+{
+    color: #8f8f8f;
 }
